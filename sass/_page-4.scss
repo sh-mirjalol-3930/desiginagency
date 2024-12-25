@@ -1,0 +1,46 @@
+.page-4{
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+
+    h2{
+        font-size: 40px;
+        color: #3D3D3F;
+    }
+    .card{
+        position: relative;
+        width: 250px;
+        text-align: center;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.281);
+        border-radius: 20px;
+        img{
+            // border: 1px solid black;
+        }
+        .text{
+            padding: 10px;
+            position: absolute;
+            background-color: white;
+            width: 280px;
+            margin-top: -120px;
+            margin-left: -10px;
+            height: 200px;
+            img{
+                margin-top: 1px;
+            }
+            b{
+                margin-top: 100px;
+                font-size: 22px;
+                color: #3D3D3F;
+            }
+            p{
+                color: gray;
+                font-weight: 600;
+                margin-top: -2px;
+                font-size: 12px;
+            }
+
+        }
+
+    }
+}

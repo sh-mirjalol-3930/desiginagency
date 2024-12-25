@@ -1,0 +1,89 @@
+.service{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    h2{
+        font-size: 40px;
+        color: #3D3D3F;
+    }
+    .row:nth-child(2){
+        padding: 0 90px;
+        border: 2px solid rgba(0, 0, 0, 0.055);
+        border-radius: 10px;
+        display: flex;
+        gap: 100px;
+        .card{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            // padding-bottom: 30px;
+            b{
+                font-size: 30px;
+                color: #3D3D3F;
+            }
+            p{
+                width: 150px;
+                color: #3D3D3F;
+                // background-color: red;
+            }
+        }
+        .card:nth-child(2){
+            padding: 10px 150px;
+            border-left: 1px solid rgba(0, 0, 0, 0.096);
+            border-right: 1px solid rgba(0, 0, 0, 0.096);
+        }
+    }
+    .row:nth-child(4){
+        // border: 1px solid black;
+        gap: 100px;
+        margin-top: 20px;
+        .card{
+            background-color: white;
+            text-align: center;
+            width: 300px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.096);
+            padding-top: 50px;
+            padding-bottom: 10px;
+            .pic{
+                width: 80px;
+                height: 80px;
+                margin-top: -90px;
+                border-radius: 100px;
+                position: absolute;
+                background-color: white;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+                margin-left: 110px;
+                img{
+                    margin-top: 15px;
+                }
+            }
+            b{
+                font-size: 22px;
+                color: #3D3D3F;
+            }
+            p{
+                width: 250px;
+                margin: 0 auto;
+                font-weight: 600;
+                font-size: 14px;
+                color: #3d3d3fbd;
+                padding-top: 10px;
+            }
+            img{
+                margin-top: 20px;
+            }
+        }
+        .card:nth-child(2){
+            .pic{
+                background-color: #FF7A50D4;
+            }
+        }
+    }
+    
+}
+ 

@@ -1,0 +1,41 @@
+.forms{
+    margin-top: 200px;
+    form{
+        margin: 0 auto;
+        .row{
+            width: 500px;
+            margin: 0 auto;
+            div{
+                display: flex;
+                flex-direction: column;
+                input{
+                    width: 240px;
+                    height: 40px;
+                    border: none;
+                }
+            }
+        }
+        .div{
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            div{
+                display: flex;
+                flex-direction: column;
+            }
+            input{
+                width: 500px;
+                height: 200px;
+                border: none;
+            }
+        }
+        label{
+            color: #3D3D3F;
+        }
+        button{
+            margin-left: 350px;
+            margin-top: 20px;
+        }
+    } 
+}

@@ -1,0 +1,28 @@
+.hero-page{
+    margin-top: 90px;
+    .row{
+        gap: 100px;
+    }
+    .left{
+        width: 500px;
+        h2{
+            font-size: 65px;
+            color: #3D3D3F;
+            font-weight: 700;
+            margin: 0;
+        }
+        p{
+            width: 480px;
+            font-size: 16px;
+        }
+        button{
+            font-size: 20px;
+        }
+    }
+    .right{
+        img{
+            width: 680px;
+            height: 350px;
+        }
+    }
+}
